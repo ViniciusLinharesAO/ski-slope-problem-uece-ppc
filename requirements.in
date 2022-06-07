@@ -1,0 +1,5 @@
+# Add new packages here
+pip==22.1.2
+pip-tools==6.6.2
+pylint==2.14.1
+autopep8==1.6.0
