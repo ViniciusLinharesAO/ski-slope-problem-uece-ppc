@@ -20,7 +20,7 @@ class ElevatorThread(threading.Thread):
         self.total_used_spaces = 0
         self.elevator_running_times = 1
 
-        self.total_spaces = 4
+        self.total_spaces = 4  # TODO: captar da env o total de espaços
 
         self.empy_spaces = self.total_spaces
         self.waiting_time = ''
@@ -95,7 +95,7 @@ class ElevatorThread(threading.Thread):
                 self.move_leftover_skyers(RT_size, LT_size)
 
             self.sum_elevator_info()
-            time.sleep(5)
+            time.sleep(5)  # TODO: captar da env o tempo de sleep do elevador
 
         else:
             self.report()

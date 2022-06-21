@@ -26,6 +26,7 @@ def app():
     c = ElevatorThread(queues, max_skiers, name='elevator')
     c.start()
 
+    # TODO: tornar a criação uma thread por si ao invés de seguir com um while
     while(max_skiers):
         p = SkierThread(queues, name='organizer', daemon=True)
         p.start()

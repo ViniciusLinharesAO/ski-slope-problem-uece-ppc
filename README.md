@@ -88,3 +88,9 @@ Como a cadeira tem quatro lugares, a quarta posição será ocupada por um esqui
 Se as filas LT e RT estiverem vazias é permitido atender as filas LS e RS até preencher todos as quatro posições.
 
 Caso as filas LS e RS estejam vazias é permitido que a cadeira viaje com apenas três pessoas sentadas.
+
+## Membros
+
+@ViniciusLinharesAO @davizardb
+<!-- TODO: fazer readme em ingles -->
+<!-- [Leia esta página em português](http....README-pt.md) -->
