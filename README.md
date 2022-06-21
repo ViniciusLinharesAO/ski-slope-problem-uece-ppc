@@ -1,7 +1,16 @@
 # ⛷️ Problema da Pista de Esqui 🎿
 
-[![Python 3.9.13](https://img.shields.io/badge/python-3.9.13-blue.svg)](https://www.python.org/downloads/release/python-3104/)
+[![Python 3.9.13](https://img.shields.io/badge/python-3.9.13-blue.svg)](https://www.python.org/downloads/release/python-3913/)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-blue)](https://github.com/PyCQA/pylint)
+
+## Instrução de primeiro uso em linux
+``` bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install pip-tools
+$ make req-install
+$ make run
+```
 
 ## Introdução
 
